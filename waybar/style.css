@@ -21,20 +21,24 @@
     color: #aaaaaa;
 }
 
+#custom-cpu_temp,
 #memory,
-#temperature {
-    padding-left: 1em;
+/* #network, */
+/* #wireplumber, */
+#custom-uptime{
+    background-color: @background-alt;
+    border-radius: 3px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-left: 0.3em;
 }
 
-#wireplumber,
-#battery,
-#backlight,
-#language,
-#network,
-#bluetooth,
-#tray {
-    padding-right: 1em;
+#wireplumber{
+	padding-left: 0.3em;
+
+
 }
-
-
-
+#network {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}

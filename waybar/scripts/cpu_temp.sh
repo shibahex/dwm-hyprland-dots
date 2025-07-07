@@ -6,7 +6,7 @@ temp_c=$((temp / 1000))
 
 # Add temperature alert
 if [ "$temp_c" -ge 82 ]; then
-    echo "CPU: $cpu_usage ($temp_c°C URGENT)"
+    echo "CPU: $cpu_usage ($temp_c°C URGENT) |"
 else
-    echo "CPU: $cpu_usage ($temp_c°C)"
+    echo "CPU: $cpu_usage ($temp_c°C) |"
 fi

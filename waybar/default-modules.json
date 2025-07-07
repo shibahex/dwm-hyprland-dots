@@ -1,0 +1,43 @@
+{
+	"custom/logo": {
+		"format": "  ",
+		"tooltip": false,
+		"on-click": "~/.config/rofi/launchers/misc/launcher.sh &"
+	},
+	"clock": {
+		"tooltip-format": "{calendar}",
+		"format": "  {:%a %m.%d.%Y | %I:%M %p}",
+		"format-alt": "  {:%a | %I:%M %p}"
+	},
+	"hyprland/workspaces": {
+		"on-click": "activate",
+		"format": "{icon}",
+		"format-icons": {
+			"default": "",
+			"active": "󱓻",
+			"urgent": "󱓻",
+			"empty": ""
+		}
+	},
+	"wireplumber": {
+		"format": "\udb81\udd7e  {volume}%",
+		"max-volume": 100,
+		"scroll-step": 5
+	},
+	"network": {
+		"format": "",
+		"format-ethernet": "\udb83\udc9d",
+		"format-wifi": "{icon}",
+		"format-disconnected": "\udb83\udc9c",
+		"format-icons": [
+			"\udb82\udd2f",
+			"\udb82\udd1f",
+			"\udb82\udd22",
+			"\udb82\udd25",
+			"\udb82\udd28"
+		],
+		"tooltip-format-wifi": "{essid} ({signalStrength}%)",
+		"tooltip-format-ethernet": "{ifname}",
+		"tooltip-format-disconnected": "Disconnected"
+	}
+}
