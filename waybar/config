@@ -43,7 +43,7 @@
 
 	"clock": {
 	    "tooltip-format": "{calendar}",
-	    "format": "  {:%a %d.%m.%Y | %I:%M %p}",
+	    "format": "  {:%a %m.%d.%Y | %I:%M %p}",
 	    "format-alt": "  {:%a | %I:%M %p}"
 	},
 
