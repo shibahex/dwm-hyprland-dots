@@ -10,15 +10,17 @@
     background-color: #000000;
 }
 
-/* #workspaces button { */
-/*     color: #eeeeee; */
-/*     padding-left: 0.7em; */
-/* } */
+#workspaces button {
+    color: #eeeeee;
+    padding-left: 0.1em;
+}
 
 #workspaces .visible { }
 
+/* little hack to hide empty workspaces */
 #workspaces button.empty {
-    color: #aaaaaa;
+	color: #eeeeee;
+	opacity: 0.05;
 }
 
 #custom-cpu_temp,
