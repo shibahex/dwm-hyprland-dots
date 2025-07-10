@@ -1,21 +1,22 @@
 * {
-    font-family: "JetBrainsMono Nerd Font", monospace;
-    font-size: 14px;
-    padding: 0;
-    margin: 0;
+	font-family: "JetBrainsMono Nerd Font", monospace;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
 }
 
 #waybar {
-    color: #eeeeee;
-    background-color: #000000;
+	color: #eeeeee;
+	background-color: #16181a;
+	opacity: 0.85;
 }
 
 #workspaces button {
-    color: #eeeeee;
-    padding-left: 0.1em;
+	color: #eeeeee;
+	padding-left: 0.1em;
 }
 
-#workspaces .visible { }
+#workspaces .visible {}
 
 /* little hack to hide empty workspaces */
 #workspaces button.empty {
@@ -27,20 +28,21 @@
 #memory,
 /* #network, */
 /* #wireplumber, */
-#custom-uptime{
-    background-color: @background-alt;
-    border-radius: 3px;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    margin-left: 0.3em;
+#custom-uptime {
+	background-color: @background-alt;
+	border-radius: 3px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin-left: 0.3em;
 }
 
-#wireplumber{
+#wireplumber {
 	padding-left: 0.3em;
 
 
 }
+
 #network {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
