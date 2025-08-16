@@ -1,6 +1,6 @@
 local wezterm = require("wezterm")
 local cyberdream = require("modules.cyberdream")
-local mappings = require("modules.mappings")
+-- local mappings = require("modules.mappings")
 return {
 	colors = cyberdream,
 	-- color_scheme = "Dracula", -- Try "Builtin Solarized Dark", etc.
@@ -22,8 +22,8 @@ return {
 	},
 	window_close_confirmation = "NeverPrompt",
 
-	-- Keybinds
-	leader = mappings.leader,
-	keys = mappings.keys,
-	key_tables = mappings.key_tables,
+	-- -- Keybinds
+	-- leader = mappings.leader,
+	-- keys = mappings.keys,
+	-- key_tables = mappings.key_tables,
 }
